@@ -1,7 +1,7 @@
 import { LightningElement } from "lwc";
 
 export default class App extends LightningElement {
-  title = "Welcome to Lightning Web Components!";
+  title = "Welcome to Trader Community";
 
   showFeatures = true;
 
@@ -11,16 +11,16 @@ export default class App extends LightningElement {
   get features() {
     return [
       {
-        label: "Learn in the browser.",
+        label: "Update Trader Details",
         icon: "utility:edit",
       },
       {
-        label: "View changes to code instantly with Live Compilation.",
+        label: "View status changes.",
         icon: "utility:refresh",
       },
       {
-        label: "Style your components with SLDS.",
-        icon: "utility:brush",
+        label: "Update your payment details",
+        icon: "utility:money",
       },
     ];
   }
